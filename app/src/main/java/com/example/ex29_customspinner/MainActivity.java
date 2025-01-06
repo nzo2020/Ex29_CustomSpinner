@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         countries = getResources().getStringArray(R.array.Countries);
         populationSizes = getResources().getStringArray(R.array.PopulationSizes);
 
+
         images = new int[]{R.drawable.white, R.drawable.china, R.drawable.france, R.drawable.germany,
                 R.drawable.greece, R.drawable.israel, R.drawable.japan, R.drawable.usa};
 
